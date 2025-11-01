@@ -37,7 +37,7 @@ if not api_key:
 else:
     client = OpenAI(api_key=api_key)
 
-MODEL_NAME = "gpt-5"
+MODEL_NAME = "gpt-4o"
 
 # -----------------------
 # JSON 유틸
