@@ -668,7 +668,7 @@ with tab1:
         m_file = st.file_uploader("📸 오전 근무표 업로드", type=["png","jpg","jpeg"], key="m_upload")
         # ✅ 이미지 미리보기 추가
         if m_file is not None:
-            st.image(m_file, caption="오전 근무표 미리보기", use_column_width=True)
+            st.image(m_file, caption="오전 근무표 미리보기", use_container_width=True)
     with col2:
         pass
 
@@ -959,7 +959,7 @@ with tab2:
         a_file = st.file_uploader("📸 오후 근무표 업로드", type=["png","jpg","jpeg"], key="a_upload")
         # ✅ 이미지 미리보기 추가
         if a_file is not None:
-            st.image(a_file, caption="오후 근무표 미리보기", use_column_width=True)
+            st.image(a_file, caption="오후 근무표 미리보기", use_container_width=True)
     with col2:
         pass
 
